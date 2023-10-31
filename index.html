@@ -8,10 +8,10 @@
 
   <style>
     body{
-      background-color: aliceblue;
+      background-color: white;
     }
     .section {
-      background-color: aliceblue;
+      background-color: white;
       padding: 10px;
       width: fit-content;
 
@@ -20,7 +20,8 @@
   margin-bottom: 5px;
     font-size: 30px;
     font-family: monospace;
-    color: darkturquoise;
+    color: black;
+    text-align: center;
 }
     .section input {
       font-size: 8px;
@@ -64,11 +65,11 @@
             }
 
             .buttons button:nth-child(3){
-                background-color: #8bc34a;
+                background-color: #000000;
             }
 
             .buttons button:nth-child(4){
-                background-color: rgb(201, 89, 69);
+                background-color: #000000;
             }
 
   </style>
@@ -79,11 +80,11 @@
     <div id="display">0:00</div>
   
     <div class="buttons">
-      <input type="text" id="input" name="input" placeholder="minutes">
-      <input type="text" id="input2" name="input2" placeholder="seconds">
+      <input type="text" id="input" name="input" placeholder="min">
+      <input type="text" id="input2" name="input2" placeholder="sec">
 
-      <button onclick="start()">▶</button>
-      <button onclick="cancel()">∎</button>
+      <button onclick="start()">⏭</button>
+      <button onclick="cancel()">⏸</button>
     </div>
     
   </section>
